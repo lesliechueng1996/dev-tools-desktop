@@ -1,0 +1,15 @@
+.search-input::-webkit-input-placeholder {
+  font-size: 0.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .search-input::-webkit-input-placeholder {
+    font-size: 1rem;
+  }
+}
